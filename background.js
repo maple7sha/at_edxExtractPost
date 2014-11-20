@@ -28,7 +28,7 @@ chrome.runtime.onConnect.addListener(function(port) {
         resCount++;
         if(resCount < idCount){
           chrome.tabs.update({
-            url: "https://courses.edx.org/courses/OECx/PH241x/3T2014/discussion/forum/7f639fd35182462dbcf13ea1adb6df27/threads/"+dataIds[resCount]},    
+            url: "https://courses.edx.org/courses/OECx/PH241x/3T2014/discussion/forum/7f639fd35182462dbcf13ea1adb6df27/threads/"},    
             function(tab){
             }
           );
